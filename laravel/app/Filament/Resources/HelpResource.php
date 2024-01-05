@@ -41,11 +41,7 @@ class HelpResource extends Resource
     }
 
     private static function afterPhotoUploadTemporary(FileUpload $component, Get $get, Set $set): void {
-        $array = [];
-
         dump($component->getState());
-
-        return;
     }
 
     public static function table(Table $table): Table
