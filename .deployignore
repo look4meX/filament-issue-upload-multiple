@@ -1,0 +1,14 @@
+.deployignore
+deployDiff.sh
+web/robots.txt
+web/.htaccess
+laravel/phpunit.xml
+web/favico*
+.gitattributes
+.editorconfig
+.gitignore
+.gitlab-ci.yml
+docker-compose.yml
+README.md
+.svn
+laravel/tests
